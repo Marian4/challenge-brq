@@ -107,3 +107,23 @@ section{
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.15);
 }
+
+#formularioInteligente {
+  display: flex;
+  flex-direction: column;
+}
+
+#recomendacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aluguel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem; 
+  color: #0033CC;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Easy carros</title>
-    <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="../css/styles/index.css">
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +14,9 @@
         <div class="logo"><a href="#">Easy carros</a></div>
         <ul class="menu">
             <li><a href="#Home" alt="home"><i class="fas fa-home"></i></a></li>
-            <li><a href="#About">About</a></li>
+            <li><a href="#Aluguel">Aluguel</a></li>
             <li><a href="#Category">Reservas</a></li>
-            <li><a href="#Contact">Formulário inteligente</a></li>
+            <li><a href="#formularioInteligente">Formulário inteligente</a></li>
             <li><a href="#Feedback">Fale Conosco</a></li>
         </ul>
     </div>
@@ -24,13 +24,58 @@
 
 <section id="Home">
     <div class="container">
-        <span> é um exemplo de texto dentro da div. Você pode adicionar mais conteúdo aqui.</span>
-        <img src="/style/img/carros.png" alt="Carros">
+        <span> Tecnologia para digitalizar
+            todo o ciclo da sua frota</span>
+        <img src="../css/img/carros.png" alt="Carros">
     </div>
 </section>
 
-<section id="About">About Section</section>
-<section id="Category">Category Section</section>
+<section id="reservas"> 
+    <div class="aluguel">
+        <h1>Encontre a locadora mais próxima de você!</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0349649148925!2d-46.57227782466966!3d-23.567187678795797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5d02a0206eb7%3A0x19fbd5af197b86c!2sMister%20Car%20Frotas!5e0!3m2!1spt-BR!2sbr!4v1695842506008!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+<section id="formularioInteligente">
+    <form id="form"> 
+        <span class="pergunta"> Qual tipo de veículo precisa? </span>
+        <div class="opcoes">
+            <input type="radio" id="pergunta1op1" name="pergunta1" value="carro" />
+            <label for="pergunta1op1">Carro</label>
+
+            <input type="radio" id="pergunta1op2" name="pergunta1" value="van" />
+            <label for="pergunta1op2">Van</label>
+
+            <input type="radio" id="pergunta1op3" name="pergunta1" value="microonibus" />
+            <label for="pergunta1op3">Micro-ônibus</label>
+
+            <input type="radio" id="pergunta1op4" name="pergunta1" value="caminhao" />
+            <label for="pergunta1op4">Caminhão de mudança</label>
+        </div>
+
+        <span class="pergunta"> Qual sua próxima viagem? </span>
+        <div class="opcoes">
+            <input type="radio" id="pergunta2op1" name="pergunta2" value="cidade" />
+            <label for="pergunta2op1">Cidade</label>
+
+            <input type="radio" id="pergunta2op2" name="pergunta2" value="fazenda" />
+            <label for="pergunta2op2">Fazenda</label>
+
+            <input type="radio" id="pergunta2op3" name="pergunta2" value="cachoeira" />
+            <label for="pergunta2op3">Cachoeira</label>
+
+            <input type="radio" id="pergunta2op4" name="pergunta2" value="praia" />
+            <label for="pergunta2op4">Praia</label>
+        </div>
+        <button id="recomendarCarro">Buscar recomendação</button>
+    </form>
+    <div id="recomendacao">
+        <img id="recomendacaoImg" src="" width="200px" height="150px"/>
+        <span id="recomendacaoNome"></span>
+    </div>
+</section>
+
 <section id="Contact">Contact Section</section>
 <section id="Feedback">Feedback Section</section>
 
@@ -38,5 +83,6 @@
     <a href="#Home"><i class="fas fa-arrow-up"></i></a>
 </div>
 
+<script src="../js/script.js"></script>
 </body>
 </html>
