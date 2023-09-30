@@ -19,11 +19,18 @@
 }
 
 .pergunta{
+  font-size: 2.5rem; 
+  color: #0035CA;
     
 }
 
 .opcoes{
+  font-size: 1.5rem; 
+  color: rgb(0, 0, 0); text-shadow: rgb(221, 221, 221) 0.1em 0.1em 0.1em
+}
 
+#recomendarCarro{
+  
 }
 
 #form{
@@ -126,4 +133,17 @@ section{
   align-items: center;
   font-size: 1.7rem; 
   color: #0033CC;
+}
+
+#formularioInteligente{
+  max-height: 550px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  background-image: linear-gradient(to bottom right, rgb(242, 248, 248), rgb(250, 255, 255));
+  opacity: 1;
+  opacity: 1;
+  border: 1px solid #ddf8f6;
+  border-radius: 5px;
+
 }
