@@ -88,21 +88,16 @@ section{
 #Home{
   background: #fff;
 }
-#About{
+#reservas{
   background: #f2f2f2;
 }
-#formulario{
-  background: #e6e6e6;
+#formularioInteligente{
+  background: #ffffff;
 }
-#Latest{
-  background: #fff;
+#contato{
+  background: #ffffff;
 }
-#Contact{
-  background: #f2f2f2;
-}
-#Feedback{
-  background: #e6e6e6;
-}
+
 .button a{
   position: fixed;
   bottom: 20px;
@@ -140,10 +135,39 @@ section{
   max-width: 1000px;
   margin: 0 auto;
   padding: 30px;
-  background-image: linear-gradient(to bottom right, rgb(242, 248, 248), rgb(250, 255, 255));
+  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(250, 255, 255));
   opacity: 1;
   opacity: 1;
   border: 1px solid #ddf8f6;
   border-radius: 5px;
+}
 
+.mulher{
+  display: flex;
+  width: 80%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.mulher img {
+
+}
+.mulher span { 
+  font-size: 2.5rem; 
+  color: #0035CA;
+  flex-direction: column;
+}
+/* Estilos para os links */
+.mulher a {
+  display: flex; /* Define os links como elementos flexíveis */
+  flex-direction: column; /* Organiza os elementos em coluna */
+  align-items: center; /* Centraliza horizontalmente o conteúdo */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  margin-top: 10px; /* Adiciona um espaço entre o texto e o ícone */
+  text-decoration: none; /* Remove a decoração padrão dos links */
+}
+
+/* Estilos para os ícones */
+.mulher i {
+  margin-top: 5px; /* Adiciona um espaço entre o texto e o ícone */
 }
