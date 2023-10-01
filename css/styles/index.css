@@ -165,3 +165,33 @@ section{
   font-size: 1.7rem; 
   color: #0033CC;
 }
+
+.mulher{
+  display: flex;
+  width: 80%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.mulher img {
+
+}
+.mulher span { 
+  font-size: 2.5rem; 
+  color: #0035CA;
+  flex-direction: column;
+}
+/* Estilos para os links */
+.mulher a {
+  display: flex; /* Define os links como elementos flexíveis */
+  flex-direction: column; /* Organiza os elementos em coluna */
+  align-items: center; /* Centraliza horizontalmente o conteúdo */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  margin-top: 10px; /* Adiciona um espaço entre o texto e o ícone */
+  text-decoration: none; /* Remove a decoração padrão dos links */
+}
+
+/* Estilos para os ícones */
+.mulher i {
+  margin-top: 5px; /* Adiciona um espaço entre o texto e o ícone */
+}
