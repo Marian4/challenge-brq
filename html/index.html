@@ -2,11 +2,13 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Easy carros</title>
     <link rel="stylesheet" href="../css/styles/index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -14,7 +16,7 @@
     <div class="navbar">
         <div class="logo"><a href="#">Easy carros</a></div>
         <ul class="menu">
-            <li><a href="#Home" alt="home"><i class="fas fa-home"></i></a></li>
+            <li><a href="#home" alt="home"><i class="fas fa-home"></i></a></li>
             <li><a href="#reservas">Reservas</a></li>
             <li><a href="#formularioInteligente">Formulário inteligente</a></li>
             <li><a href="#contato">Fale Conosco</a></li>
@@ -22,7 +24,7 @@
     </div>
 </nav>
 
-<section id="Home">
+<section id="home">
     <div class="container">
         <span> Tecnologia para digitalizar
             todo o ciclo da sua frota</span>
@@ -39,6 +41,7 @@
 
 <section id="formularioInteligente">
     <form id="form"> 
+        <span id="title">Encontre o carro perfeito para você</span>
         <span class="pergunta">Qual tipo de veículo precisa? </span>
         <div class="opcoes">
             <input type="radio" id="pergunta1op1" name="pergunta1" value="carro" />
@@ -71,8 +74,8 @@
         <button id="recomendarCarro" class="btn btn-secondary btn-lg">Buscar recomendação</button>
     </form>
     <div id="recomendacao">
-        <img id="recomendacaoImg" src="" width="200px" height="150px"/>
-        <span id="recomendacaoNome"></span>
+        <img id="recomendacaoImg" src="../css/img/car-silhouette.png" height="350px"/>
+        <h2 id="recomendacaoNome">?????</h2>
     </div>
 </section>
 
@@ -82,6 +85,7 @@
     <a href="#Home"><i class="fas fa-arrow-up"></i></a>
 </div>
 
+<script src="../js/carros.js"></script>
 <script src="../js/script.js"></script>
 </body>
 </html>
