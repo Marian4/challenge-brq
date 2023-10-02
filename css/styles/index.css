@@ -8,18 +8,35 @@
 
 .container {
   display: flex;
-  width: 80%;
+  width: 88%;
   height: 100%;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
 }
 
-.container > span { 
-  font-size: 2.5rem; 
-  color: #0035CA;
+.divfont{
+  margin-right: 10%;
+}
+
+section div h1 { 
+  display: block;
+  font-size: 3rem; 
+  color: #0e42d3;
   font-weight: bold;
+  margin-bottom: 5px;
+}
+.font-massa{
+  font-size: 1.4rem; 
+  color: #4a6ac4;
+  font-weight: 400;
 }
 
+.bg-image{
+  background-image: url(../img/funso-principal.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 nav{
   position: fixed;
   left: 0;
@@ -205,9 +222,7 @@ section{
   align-items: center;
   justify-content: space-between;
 }
-.mulher img {
 
-}
 .mulher span { 
   font-size: 2.5rem; 
   color: #0035CA;
