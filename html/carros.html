@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles/carros.css">
+    <link rel="stylesheet" href="../css/font-awesome/css/all.css">
+    <title>carros</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="index.html">Easy carros</a></div>
+        </div>
+    </nav>
+
+    <main>
+        <div id="opcoes">
+            <div id="pesquisa">
+                <input id="pesquisaInput" type="text" placeholder="Busque por um veículo" />
+                <button id="pesquisaButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div id="filtros">
+                <button id="filtroTodos">Todos</button>
+                <button id="filtroCarro">Carros</button>
+                <button id="filtroCaminhao">Caminhões</button>
+                <button id="filtroVan">Vans</button>
+                <button id="filtroBus">Micro-ônibus</button>
+            </div>
+        </div>
+
+        <div id="carros"></div>
+    </main>
+
+    <script src="../js/carros.js"></script>
+    <script src="../js/carrosPage.js"></script>
+</body>
+</html>

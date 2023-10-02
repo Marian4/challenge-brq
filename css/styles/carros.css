@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background: #0035CA;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 90%;
+    background: #0035CA;
+    margin: auto;
+}
+nav .navbar .logo a{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 7rem 5rem;
+}
+
+#opcoes {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#pesquisa {
+    flex: 1;
+    display: flex;
+    gap: 0.5rem
+}
+
+#pesquisa input {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid #0035CA;
+}
+
+#opcoes button {
+    padding: 1rem 1.5rem;
+    background-color: #0035CA;
+    color: #ffffff;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#opcoes button:hover {
+    background-color: #0e4aee;
+}
+
+#pesquisa input:focus {
+    outline: 0;
+}
+
+#filtros {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#carros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2rem;
+    align-items: center;
+}
+
+.carro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+    width: calc((100% - 6rem) / 4);
+    height: 20rem;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+.carroInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carroNome {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.empresaNome {
+    font-size: 0.875rem;
+    color: #808080;
+}
+
+.carro img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.carro button {
+    background-color: #0035CA;
+    color: #ffffff;
+    border: 0;
+    border-radius: 6px;
+    padding: 0.75rem 2rem;
+    bottom: 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.carro button:hover {
+    background-color: #0e4aee;
+}

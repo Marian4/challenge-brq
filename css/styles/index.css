@@ -17,7 +17,7 @@
 .container > span { 
   font-size: 2.5rem; 
   color: #0035CA;
-  font-weight: bold
+  font-weight: bold;
 }
 
 nav{
@@ -70,13 +70,41 @@ section{
 #home, #formularioInteligente{
   background: #fff;
 }
-#reservas, #contato{
+#locadoras, #contato{
   background: #f2f2f2;
 }
 
 #home {
   margin-top: 75px;
   height: calc(100vh - 75px);
+}
+
+#locadoras {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+#mapa {
+  width: 600px;
+  height: 500px;
+}
+
+#locadoras div {
+  width: 30%;
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+#locadoras div i {
+  font-size: 3rem;
+  color: #0033CC;
 }
 
 .button a{
@@ -157,14 +185,18 @@ section{
   /* background-color: red; */
 }
 
-.aluguel{
+#formularioInteligente #recomendacaoImg {
+  height: 350px;
+}
+
+/* .aluguel{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 1.7rem; 
   color: #0033CC;
-}
+} */
 
 .mulher{
   display: flex;
@@ -194,4 +226,17 @@ section{
 /* Estilos para os ícones */
 .mulher i {
   margin-top: 5px; /* Adiciona um espaço entre o texto e o ícone */
+}
+
+#verCarrosLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #0033CC;
+}
+
+#verCarrosLink:hover {
+  color:#0035CA;
 }
