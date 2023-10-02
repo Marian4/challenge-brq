@@ -153,7 +153,6 @@ section{
   gap: 1rem;
 
   font-size: 1rem;
-  /* background-color: green; */
 }
 
 #formularioInteligente #form #title{
@@ -200,48 +199,10 @@ section{
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  /* background-color: red; */
 }
 
 #formularioInteligente #recomendacaoImg {
   height: 350px;
-}
-
-/* .aluguel{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.7rem; 
-  color: #0033CC;
-} */
-
-.mulher{
-  display: flex;
-  width: 80%;
-  height: 100%;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.mulher span { 
-  font-size: 2.5rem; 
-  color: #0035CA;
-  flex-direction: column;
-}
-/* Estilos para os links */
-.mulher a {
-  display: flex; /* Define os links como elementos flexíveis */
-  flex-direction: column; /* Organiza os elementos em coluna */
-  align-items: center; /* Centraliza horizontalmente o conteúdo */
-  text-align: center; /* Centraliza o texto horizontalmente */
-  margin-top: 10px; /* Adiciona um espaço entre o texto e o ícone */
-  text-decoration: none; /* Remove a decoração padrão dos links */
-}
-
-/* Estilos para os ícones */
-.mulher i {
-  margin-top: 5px; /* Adiciona um espaço entre o texto e o ícone */
 }
 
 #verCarrosLink {
@@ -255,4 +216,54 @@ section{
 
 #verCarrosLink:hover {
   color:#0035CA;
+}
+
+#contato {
+  display: flex;
+  gap: 3rem;
+}
+
+#contato a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none; 
+}
+
+#contato img {
+  height: 450px;
+}
+
+#contato i {
+  margin-top: 5px;
+}
+
+#faleConosco{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#faleConosco div{
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+#faleConosco #titulo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#faleConosco #titulo span{
+  font-weight: bold;
+  font-size: 2rem;
+  color: #0033CC;
+}
+
+#faleConosco #titulo p{
+  font-size: 1.5rem;
 }
