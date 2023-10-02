@@ -16,18 +16,19 @@
 }
 
 .divfont{
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
-section div h1 { 
+#home div h1 { 
   display: block;
-  font-size: 3rem; 
+  font-size: 2rem; 
   color: #0e42d3;
   font-weight: bold;
   margin-bottom: 5px;
 }
+
 .font-massa{
-  font-size: 1.4rem; 
+  font-size: 1rem; 
   color: #4a6ac4;
   font-weight: 400;
 }
